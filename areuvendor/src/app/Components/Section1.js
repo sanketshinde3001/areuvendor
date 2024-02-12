@@ -26,7 +26,7 @@ const Section1 = () => {
             <strong className='text-5xl '>(just like you!)</strong>
             <p className='mt-6 mr-2 text-lg'>WeddingPro helps wedding pros like you reach their unique business goals. Let us help you reach yours. Some categories we work with include <span className='italic'>Venues, Planners, Photographers, Officiants, DJs and so many more.</span> </p>
 
-            <button class=" text-purple-900 py-2 px-4 rounded-3xl mt-10 border border-purple-900 hover:bg-purple-900 hover:text-white "><strong>Learn about our customers</strong></button>
+            <button className=" text-purple-900 py-2 px-4 rounded-3xl mt-10 border border-purple-900 hover:bg-purple-900 hover:text-white "><strong>Learn about our customers</strong></button>
 
       
 

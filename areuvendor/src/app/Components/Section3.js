@@ -1,4 +1,5 @@
 // import { pages } from 'next/dist/build/templates/app-page'
+import Image from "next/image";
 import React from "react";
 
 export default function Pages() {
@@ -20,7 +21,11 @@ export default function Pages() {
           </button>
         </div>
         <div className="img h-1/5 w-1/2 ">
-          <img className="rounded-2xl" src="./weddingpro.webp" alt="" />
+          <Image className="rounded-2xl" 
+            src="https://pros.weddingpro.com/wp-content/uploads/2023/10/5_HP_streamlined-comms.png"
+            width={500}
+            height={500}
+            alt="Picture of the author" />
         </div>
       </div>
     </div>

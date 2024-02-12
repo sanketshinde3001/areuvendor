@@ -17,6 +17,7 @@ const Section = ({ borderColor, imageSrc, topTag, title, description, buttonText
             className="rounded-lg"
             width={1038}
             height={1032}
+            alt="Picture of the author"
 
           />
         </figure>

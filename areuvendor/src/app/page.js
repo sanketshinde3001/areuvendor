@@ -1,12 +1,25 @@
 import React from 'react';
-import Section2 from '../components/Section2';
+import Section2 from './Components/Section2';
+import Heroone from './Components/Heroone';
+import Stats from './Components/Stats';
+import Section1 from './Components/Section1';
+import Section5 from './Components/Section5';
+import Section6 from './Components/Section6';
+import Footercards from './Components/Footercards';
+import Footerslider from './Components/Footerslider';
+import Pages from './Components/Section3';
+import Footer from './Components/Footer';
 
 
 
 const page = () => {
   
+  
   return (
     <>
+      <Heroone/>
+      <Stats/>
+      <Section1/>
       <Section2
       borderColor="purple-700"
       imageSrc="https://pros.weddingpro.com/wp-content/uploads/2023/10/Iris-Mannings-Photography-Ikem-and-Shae-Vendor-With-Couple-Venue-Yours-Truly-165-1.png?w=1024"
@@ -15,7 +28,10 @@ const page = () => {
       description="Build your reputation by investing in wedding advertising on The Knot and WeddingWire, two of the most trusted wedding marketplaces hosting more than 9 million couple reviews."
       buttonText="Gain your Couple's trust"
       marginTop={10}
-    />
+      />
+
+      <Pages/>
+
        <Section2
       borderColor="purple-700"
       imageSrc="https://pros.weddingpro.com/wp-content/uploads/2023/10/6_HP_Monitor-growth.png"
@@ -25,6 +41,14 @@ const page = () => {
       buttonText="Understand your ROI"
       marginTop={10}
     />
+
+    <Section5/>
+    <Section6/>
+    <Footercards/>
+    <Footerslider/>
+    
+    <Footer/>
+
   
     </>
   );

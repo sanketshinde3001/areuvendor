@@ -29,7 +29,7 @@ const Section6 = () => {
             <p className='mt-6 mr-2 text-lg'>Build relationships with wedding pros and couples 
 From showcasing your authentic brand and connecting with new clients to gaining access to exclusive industry events, there are countless opportunities to grow your network. </p>
 
-            <button class=" text-purple-900 py-2 px-4 rounded-3xl mt-10 border border-purple-900 hover:bg-purple-900 hover:text-white"><strong>Join our community</strong></button>
+            <button className=" text-purple-900 py-2 px-4 rounded-3xl mt-10 border border-purple-900 hover:bg-purple-900 hover:text-white"><strong>Join our community</strong></button>
 
       
 

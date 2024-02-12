@@ -17,13 +17,13 @@ const Heroone = () => {
 
         <h2 className="text-5xl font-semibold mb-16 ">
           Grow your wedding business with the&nbsp;
-          <span class="relative text-5xl font-semibold">
+          <span className="relative text-5xl font-semibold">
            industry
-            <span class="absolute bottom-0 left-0 w-full h-6 bg-yellow-400 -z-10"></span>
+            <span className="absolute bottom-0 left-0 w-full h-6 bg-yellow-400 -z-10"></span>
           </span>
-          <span class="relative text-5xl font-semibold">
+          <span className="relative text-5xl font-semibold">
           leaders couples love
-            <span class="absolute bottom-0 left-0 w-full h-6 bg-yellow-400 -z-10"></span>
+            <span className="absolute bottom-0 left-0 w-full h-6 bg-yellow-400 -z-10"></span>
           </span>
         </h2>
         <h3 className="text-xl mb-5 w-4/5 leading-10">
@@ -57,6 +57,7 @@ const Heroone = () => {
               width={500}
               height={500}
               className="rounded-xl "
+              alt="Picture of the author"
             />
             
           </div>
