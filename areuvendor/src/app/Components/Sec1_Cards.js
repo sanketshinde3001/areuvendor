@@ -29,10 +29,10 @@ const Sec1_Cards = () => {
    " className='text-blue-700 font-semibold underline hover:no-underline hover:text-black'>connect you with more couples</Link>.</>
  
   
-  return (
+  return ( 
     <> 
 
-    <div className='grid grid-cols-4 gap-4 p-20'>
+    <div className='grid grid-cols-4 gap-4 pt-20 max-md:gap-5  max-md:grid-cols-1 '>
      <Sec1_Card title={"Venues"} desc={one} /> 
      <Sec1_Card title={"Photographers"} desc={two} /> 
      <Sec1_Card title={"Videographers"} desc={three} /> 
